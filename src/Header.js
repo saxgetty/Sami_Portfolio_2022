@@ -7,11 +7,11 @@ function Header() {
         <div>
             <header>
                 <title>Portfolio</title>
-                <div className="container-flex">
+                {/* <div className="container-flex">
                     <div className="site-title">
-                       <h1 className="text-center text-3xl font-bold ">Portfolio</h1>             
+                       <h1 className="text-center text-3xl font-bold ">Sami Saxton-Getty</h1>             
                     </div>
-                </div>
+                </div> */}
             </header>
         </div>
     );

@@ -1,12 +1,12 @@
 import React from 'react';
 
-function about() {
+function Project() {
 
     return(
         <div>
-            <p>hello</p>
+            <p>hello3</p>
         </div>
     );
 }
 
-export default about
+export default Project;

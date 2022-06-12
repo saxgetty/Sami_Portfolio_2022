@@ -1,9 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar/NavBar'
-import Header from './Header'
-// import Main from './Main'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import Navbar from './components/navbar/NavBar';
+import About from './components/pages/About';
+import Project from './components/pages/Project';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
 // import Footer from './Footer'
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -12,9 +15,21 @@ import './styles/index.css'
 
 function App() {
     return (
+
         <div className = "App">
-            <Header />
-            <Navbar />
+            <Header /> 
+            
+            <BrowserRouter>
+                <div>
+                    <Navbar />
+                    <Routes>
+                        <Route path="/about" element={<About />} />
+                        <Route path="/project" element={<Project />} />
+                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/contact" element={<Contact />} />
+                    </Routes>
+                </div>
+            </BrowserRouter>
         </div>
     );
 }
