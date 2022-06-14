@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Header';
+import Header from './components/header/Header';
 import Navbar from './components/navbar/NavBar';
 import About from './components/pages/About';
 import Project from './components/pages/Project';
@@ -16,13 +16,16 @@ import './styles/index.css'
 function App() {
     return (
 
-        <div className = "App">
+        <div className= "App">
             <Header /> 
             
             <BrowserRouter>
                 <div>
                     <Navbar />
+                </div>
+                <div>     
                     <Routes>
+                        <Route path="/" element={<About />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/project" element={<Project />} />
                         <Route path="/resume" element={<Resume />} />
