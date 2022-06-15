@@ -22,7 +22,6 @@ const theme = createTheme({
   },
 });
 
-// style= {{ background: 'black' }}
 function Navbar() {
 
   const [selectedTab, setSelectedTab] = React.useState(0);
@@ -34,7 +33,6 @@ function Navbar() {
 
   return (
     <ThemeProvider theme={theme}>
-      <>
         <AppBar position="static" sx={{ height: 85 }}>
         <Tabs 
           selectionFollowsFocus
@@ -50,7 +48,6 @@ function Navbar() {
             <Tab icon={<AlternateEmailOutlinedIcon />} label="CONTACT ME" component={Link} to={"/contact"} />
           </Tabs>
         </AppBar>
-      </>
     </ThemeProvider>
   );
 }

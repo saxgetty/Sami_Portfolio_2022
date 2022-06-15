@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/NavBar';
-import About from './components/pages/About';
-import Project from './components/pages/Project';
-import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
+import About from './pages/About';
+import Project from './pages/Project';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 // import Footer from './Footer'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -32,6 +32,9 @@ function App() {
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </div>
+                {/* <div>
+                    <Footer />
+                </div> */}
             </BrowserRouter>
         </div>
     );

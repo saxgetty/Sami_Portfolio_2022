@@ -1,12 +1,10 @@
-// import React from 'react'
+// import React from 'react';
+// import AppBar from '@mui/material/AppBar';
 
 // function Footer(){
 //     return(
-//         <div>
-//             <footer className="container-flex">
-
-//             </footer>
-//         </div>
+//         <AppBar position="static" sx={{ height: 60 }}>
+//         </AppBar>
 //     )
 // }
 
