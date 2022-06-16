@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Contact() {
+function Skill() {
 
     return(
         <div>
-            <p>Contact</p>
+            <p>Skill</p>
         </div>
     );
 }
 
-export default Contact;
+export default Skill;

@@ -2,31 +2,36 @@ a, a:visited{
     color: wheat;
 }
 
-html {
-
-    background: url("/public/background_bg_clean.png");
+body {
+    background: url("/public/background_bg_clean_repeat.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
+    background-repeat: repeat;
 }
 
-.container {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+@font-face {
+    font-family: 'AbstractGroovy';
+    src: local('AbstractGroovy'),
+        url('/public/aAbstractGroovy.woff') format('woff');
 }
-  
+
 .name {
-    background-color: transparent;
-    text-align: center;
-    padding: 16px;
+    font-family: AbstractGroovy;
+    font-size: 115px;
+    color: #4D3829;
+    margin-top: 130px;
 }
 
-.about_me_text {
-    height: 250px;
-    width: 250px;
-    background-color: #f2b643;
+.card_title {
+    font-family: AbstractGroovy;
+    font-size: 25px;
+    color: #4D3829;
+    padding: 15px;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #4D3829;
+    padding: 15px;
+    margin-top: -30px;  
 }

@@ -1,12 +1,12 @@
-import React from 'react';
+// import React from 'react';
 
-function Resume() {
+// function Resume() {
 
-    return(
-        <div>
-            <p>hello4</p>
-        </div>
-    );
-}
+//     return(
+//         <div>
+//             <p>Resume</p>
+//         </div>
+//     );
+// }
 
-export default Resume;
+// export default Resume;

@@ -4,9 +4,10 @@ import Header from './components/header/Header';
 import Navbar from './components/navbar/NavBar';
 import About from './pages/About';
 import Project from './pages/Project';
-import Resume from './pages/Resume';
+import Skill from './pages/Skill';
+// import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-// import Footer from './Footer'
+import Footer from './Footer'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -28,13 +29,14 @@ function App() {
                         <Route path="/" element={<About />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/project" element={<Project />} />
-                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/skill" element={<Skill />} />
+                        {/* <Route path="/resume" element={<Resume />} /> */}
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </div>
-                {/* <div>
+                <div>
                     <Footer />
-                </div> */}
+                </div>
             </BrowserRouter>
         </div>
     );

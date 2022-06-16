@@ -4,7 +4,7 @@ function Project() {
 
     return(
         <div>
-            <p>hello3</p>
+            <p>Project</p>
         </div>
     );
 }
