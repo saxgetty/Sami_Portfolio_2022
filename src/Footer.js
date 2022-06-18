@@ -27,12 +27,12 @@ function Footer(){
                 >
                     <IconButton 
                         aria-label="Linkedin.com" 
-                        onClick={() => window.open('www.linkedin.com/in/sami-saxton-getty', "_blank")}
+                        onClick={() => window.open('https://www.linkedin.com/in/sami-saxton-getty', "_blank")}
                         style={{ color: 'wheat', marginTop: 0 }}
                     >
                         <LinkedInIcon fontSize="large" />
                     </IconButton>
-                    <IconButton 
+                    {/* <IconButton 
                         aria-label="Linkedin.com" 
                         onClick={() => window.open('www.linkedin.com/in/sami-saxton-getty', "_blank")}
                         style={{ color: 'wheat', marginTop: 0 }}
@@ -45,7 +45,7 @@ function Footer(){
                         style={{ color: 'wheat', marginTop: 0 }}
                     >
                         <LinkedInIcon fontSize="large" />
-                    </IconButton>
+                    </IconButton> */}
                 </Stack>
             </AppBar>
         </ThemeProvider>

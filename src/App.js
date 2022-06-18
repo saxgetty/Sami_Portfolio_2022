@@ -34,9 +34,9 @@ function App() {
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </div>
-                <div>
+                {/* <div>
                     <Footer />
-                </div>
+                </div> */}
             </BrowserRouter>
         </div>
     );

@@ -14,11 +14,6 @@ function About() {
                 >
                     <div class="name">SAMI SAXTON-GETTY</div>
                 </Grid>
-                <Grid 
-                    item xs={12} 
-                    textAlign='center'
-                >
-                </Grid>
             </Grid>
             <Grid container 
                 style={{alignItems: 'center', justifyContent:'center'}}
