@@ -7,28 +7,26 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function Contact() {
 
     return(
-        <div>
+        <>
             <Grid container
-                marginTop={20}
             > 
                 <Grid 
                     item xs={12} 
                     textAlign='center'
                 >
-                    <div class="name">CONTACT SAMI</div>
+                    <div class='name'>CONTACT SAMI</div>
                 </Grid>
                 <Grid container> 
-                    
                     <Grid 
                         item xs={12} sm={12} md={4} 
                         textAlign={{ xs: 'center', sm: 'center', md: 'right' }}
                     >
                         <IconButton 
-                            aria-label='Linkedin.com/in/sami-saxton-getty' 
-                            onClick={() => window.open('https://www.linkedin.com/in/sami-saxton-getty', '_blank')}
-                            style={{ color: '#0072b1', marginTop: 100 }}
+                            aria-label='Github.com/saxgetty' 
+                            onClick={() => window.open('https://github.com/saxgetty', '_blank')}
+                            style={{ color: '#333', marginTop: 100 }}
                         >
-                            <LinkedInIcon sx={{ fontSize: '200px' }} />
+                            <GitHubIcon sx={{ fontSize: '200px' }} />
                         </IconButton>
                     </Grid>
                     <Grid 
@@ -48,16 +46,16 @@ function Contact() {
                         textAlign={{ xs: 'center', sm: 'center', md: 'left' }}
                     >
                         <IconButton 
-                            aria-label="Github.com/saxgetty" 
-                            onClick={() => window.open('https://github.com/saxgetty', '_blank')}
-                            style={{ color: '#333', marginTop: 100 }}
+                            aria-label='Linkedin.com/in/sami-saxton-getty' 
+                            onClick={() => window.open('https://www.linkedin.com/in/sami-saxton-getty', '_blank')}
+                            style={{ color: '#0072b1', marginTop: 100 }}
                         >
-                            <GitHubIcon sx={{ fontSize: '200px' }} />
+                            <LinkedInIcon sx={{ fontSize: '200px' }} />
                         </IconButton>
                     </Grid>
                 </Grid>
             </Grid>
-        </div>
+        </>
     );
 }
 
