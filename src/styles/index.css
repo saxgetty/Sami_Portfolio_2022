@@ -28,10 +28,27 @@ body {
     padding: 15px;
 }
 
+.skill_card_title {
+    font-family: AbstractGroovy;
+    font-size: 25px;
+    color: #4D3829;
+    text-align: center;
+    padding: 15px;
+}
+
 .info-title {
     font-weight: bold;
     font-size: 15px;
     color: #4D3829;
     padding: 15px;
     margin-top: -30px;  
+}
+
+.list-info {
+    /* font-weight: bold; */
+    font-size: 20px;
+    padding: 5px;
+    margin-top: -10px;
+    text-align: center;
+    list-style-type: none;
 }
