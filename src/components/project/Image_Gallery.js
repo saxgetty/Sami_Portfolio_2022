@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function BusyGator() {
+function Image_Gallery() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function BusyGator() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='BusyGator'
-                subheader='May | 2022'
+                title='Image Gallery'
+                subheader='May | 2021'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='BusyGator_Img.png'
-                alt='BusyGator Website'
+                image='Image_Gallery_Img.png'
+                alt='Image Gallery Website'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    JavaScript | React.js | Express.js | AWS | SQL
+                    JavaScript | Express.js | Node.js | Handlebars.js | HTML5 | CSS3 | SQL
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,28 +67,14 @@ function BusyGator() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project BusyGator is a mock e-commerce website for San Francisco State University students,
-                        staff, and faculty. Throughout this project, I worked in a team of 7 software developers to simulate
-                        an industry level software development lifecycle.
-                    </Typography>
-                    <Typography paragraph 
-                        align='left'
-                    >
-                        As a Team Lead, my role differed quite a bit from the others. The main focus on my role was on team and project 
-                        management. My tasks included, team management, task deligation, organizing and assigning deadlines for workflow through 
-                        Trello, bridging communication between team questions and professor responses, as well as holding 3 weekly meetings to maintain schedule
-                        and progress of our workflow.
-                    </Typography>
-                    <Typography paragraph 
-                        align='left'
-                    >
-                        As a Team Member, I designed and upkept our SQL database, formatted, prepared, and implemented all milestone documentation, designed our website
-                        logo and map, and added finishing comments throughout the project.
-                    </Typography>
+                        Project Image Gallery is an individually made web based application created with JavaScript. This project focused heavily
+                        on understanding HTML5 and CSS concepts in conjunction with JavaScript and Express.js. Features such as logging in and out, 
+                        post, search, and commenting were implemented to reinforce the basics of constructing a website with front and back end.
+                    </Typography> 
                 </CardContent>
             </Collapse>
         </Card>
     );
 }
 
-export default BusyGator;
+export default Image_Gallery;

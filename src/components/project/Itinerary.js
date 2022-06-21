@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function BusyGator() {
+function Itinerary() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function BusyGator() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='BusyGator'
+                title='iTinerary'
                 subheader='May | 2022'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='BusyGator_Img.png'
-                alt='BusyGator Website'
+                image='Itinerary_Img.png'
+                alt='iTinerary iOS Application'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    JavaScript | React.js | Express.js | AWS | SQL
+                    Swift | UIKit | SwiftUI
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,23 +67,16 @@ function BusyGator() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project BusyGator is a mock e-commerce website for San Francisco State University students,
-                        staff, and faculty. Throughout this project, I worked in a team of 7 software developers to simulate
-                        an industry level software development lifecycle.
+                        Project iTinerary is an iOS mobile application created in XCode in a team of 4, utilizing the Swift language, and
+                        UI Kit and SwiftUI frameworks. iTinerary serves as a note taking application to plan trips and record
+                        relevant information.
                     </Typography>
                     <Typography paragraph 
                         align='left'
                     >
-                        As a Team Lead, my role differed quite a bit from the others. The main focus on my role was on team and project 
-                        management. My tasks included, team management, task deligation, organizing and assigning deadlines for workflow through 
-                        Trello, bridging communication between team questions and professor responses, as well as holding 3 weekly meetings to maintain schedule
-                        and progress of our workflow.
-                    </Typography>
-                    <Typography paragraph 
-                        align='left'
-                    >
-                        As a Team Member, I designed and upkept our SQL database, formatted, prepared, and implemented all milestone documentation, designed our website
-                        logo and map, and added finishing comments throughout the project.
+                        I contributed to this project by implementing two important APIs from Apple and Google Places for our map option. In addition to this,
+                        I helped organize our design layout, and worked with my team members to add our checklist and schedule. I used an Apple iOS application called
+                        Procreate to design our logo and individual feature icons.
                     </Typography>
                 </CardContent>
             </Collapse>
@@ -91,4 +84,4 @@ function BusyGator() {
     );
 }
 
-export default BusyGator;
+export default Itinerary;
