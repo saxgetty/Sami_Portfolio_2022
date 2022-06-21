@@ -31,7 +31,7 @@ function Itinerary() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function Itinerary() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='Itinerary_Img.png'
                 alt='iTinerary iOS Application'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     Swift | UIKit | SwiftUI
                 </Typography>
             </CardContent>

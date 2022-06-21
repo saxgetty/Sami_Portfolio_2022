@@ -31,7 +31,7 @@ function TankGame() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function TankGame() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='Tank_Game_Img.png'
                 alt='Tank Wars 2v2 Game'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     Java
                 </Typography>
             </CardContent>

@@ -10,7 +10,6 @@ import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlin
 import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
 
 const theme = createTheme({
-
   palette: {
     primary: {  
       main: '#9C6984',

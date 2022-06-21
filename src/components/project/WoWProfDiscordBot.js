@@ -31,7 +31,7 @@ function WoWProfDiscordBot() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function WoWProfDiscordBot() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='WoW_Prof_Discord_Bot_Img.png'
                 alt='WoW Professions Discord Bot'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     JavaScript | Node.js | Replit | Replit Database
                 </Typography>
             </CardContent>

@@ -31,7 +31,7 @@ function ImageGallery() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function ImageGallery() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='Image_Gallery_Img.png'
                 alt='Image Gallery Website'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     JavaScript | Express.js | Node.js | Handlebars.js | HTML5 | CSS3 | SQL
                 </Typography>
             </CardContent>

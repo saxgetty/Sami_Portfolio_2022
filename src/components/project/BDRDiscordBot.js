@@ -31,7 +31,7 @@ function BDRDiscordBot() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function BDRDiscordBot() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='BDR_Discord_Bot_Img.png'
                 alt='BDR Discord Bot'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     Python | SQL | Replit
                 </Typography>
             </CardContent>
