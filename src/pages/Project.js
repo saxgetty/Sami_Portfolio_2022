@@ -6,7 +6,7 @@ import LamdbaVibe from '../components/project/LamdbaVibe';
 import Itinerary from '../components/project/Itinerary';
 import TankGame from '../components/project/TankGame';
 import BDRDiscordBot from '../components/project/BDRDiscordBot';
-import Image_Gallery from '../components/project/Image_Gallery';
+import ImageGallery from '../components/project/ImageGallery';
 import WoWProfDiscordBot from '../components/project/WoWProfDiscordBot';
 
 function Project() {
@@ -79,7 +79,7 @@ function Project() {
                     align='center'
                     
                 >
-                    <Image_Gallery />
+                    <ImageGallery />
                 </Grid>
             </Grid>
         </>
