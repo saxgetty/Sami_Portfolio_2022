@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function WoW_Prof_Discord_Bot() {
+function BDRDiscordBot() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function WoW_Prof_Discord_Bot() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='WoW Professions Discord Bot'
-                subheader='June | 2021'
+                title='BDR Discord Bot'
+                subheader='December | 2021'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='WoW_Prof_Discord_Bot_Img.png'
-                alt='WoW Professions Discord Bot'
+                image='BDR_Discord_Bot_Img.png'
+                alt='BDR Discord Bot'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    JavaScript | Node.js | Replit | Replit Database
+                    Python | SQL | Replit
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,11 +67,9 @@ function WoW_Prof_Discord_Bot() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project World of Warcraft (WoW) Professions Discord Bot is an application created with Javascript and Replit in a team of 2. This project
-                        allows Discord users to call certain commands in Discord text channels that return existing data within the Replit database. The goal behind this 
-                        personal project was to provide our WoW community with a hub for all data in the game regarding professions. This allowed us to keep track of
-                        all individuals that had specific recipes within the given Discord server once they "learned" it by running the learn command. Using this streamlined
-                        community communication and craft sharing.
+                        Project BDR Discord Bot is an individually made application created with Python and MySQL. This project allows Discord users
+                        to interact with a Blog Database Management System Discord Bot, sending certain commands that the Bot can fetch
+                        data for. This database holds over 30 entities and is connected with the Discord API through using Python in Replit.
                     </Typography> 
                 </CardContent>
             </Collapse>
@@ -79,4 +77,4 @@ function WoW_Prof_Discord_Bot() {
     );
 }
 
-export default WoW_Prof_Discord_Bot;
+export default BDRDiscordBot;

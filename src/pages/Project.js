@@ -4,10 +4,10 @@ import { Grid } from '@mui/material';
 import BusyGator from '../components/project/BusyGator';
 import LamdbaVibe from '../components/project/LamdbaVibe';
 import Itinerary from '../components/project/Itinerary';
-import Tank_Game from '../components/project/Tank_Game';
-import BDR_Discord_Bot from '../components/project/BDR_Discord_Bot';
+import TankGame from '../components/project/TankGame';
+import BDRDiscordBot from '../components/project/BDRDiscordBot';
 import Image_Gallery from '../components/project/Image_Gallery';
-import WoW_Prof_Discord_Bot from '../components/project/WoW_Prof_Discord_Bot';
+import WoWProfDiscordBot from '../components/project/WoWProfDiscordBot';
 
 function Project() {
 
@@ -57,21 +57,21 @@ function Project() {
                     align='center'
                     
                 >   
-                    <BDR_Discord_Bot />
+                    <BDRDiscordBot />
                 </Grid>
                 <Grid
                     item xs={12} sm={12} md={4}
                     align='center'
                     
                 >
-                     <Tank_Game />
+                     <TankGame />
                 </Grid>
                 <Grid
                     item xs={12} sm={12} md={4}
                     align='center'
                     
                 >
-                    <WoW_Prof_Discord_Bot />
+                    <WoWProfDiscordBot />
                     
                 </Grid>
                 <Grid
