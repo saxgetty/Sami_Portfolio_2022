@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function BDR_Discord_Bot() {
+function TankGame() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function BDR_Discord_Bot() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='BDR Discord Bot'
-                subheader='December | 2021'
+                title='Tank Wars'
+                subheader='August | 2021'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='BDR_Discord_Bot_Img.png'
-                alt='BDR Discord Bot'
+                image='Tank_Game_Img.png'
+                alt='Tank Wars 2v2 Game'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    Python | SQL | Replit
+                    Java
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,9 +67,9 @@ function BDR_Discord_Bot() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project BDR Discord Bot is an individually made application created with Python and MySQL. This project allows Discord users
-                        to interact with a Blog Database Management System Discord Bot, sending certain commands that the Bot can fetch
-                        data for. This database holds over 30 entities and is connected with the Discord API through using Python in Replit.
+                        Project Tank Wars is an individually made Java based application using the model view controller design archetype. 
+                        This project was built utilizing all 3 pillars of object oriented programming and allowed two players to interact 
+                        with each other and their surroundings using the keyboard. The objective is to shoot each other down until one players lives run out. 
                     </Typography> 
                 </CardContent>
             </Collapse>
@@ -77,4 +77,4 @@ function BDR_Discord_Bot() {
     );
 }
 
-export default BDR_Discord_Bot;
+export default TankGame;

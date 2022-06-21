@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function Tank_Game() {
+function WoWProfDiscordBot() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function Tank_Game() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='Tank Wars'
-                subheader='August | 2021'
+                title='WoW Professions Discord Bot'
+                subheader='June | 2021'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='Tank_Game_Img.png'
-                alt='Tank Wars 2v2 Game'
+                image='WoW_Prof_Discord_Bot_Img.png'
+                alt='WoW Professions Discord Bot'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    Java
+                    JavaScript | Node.js | Replit | Replit Database
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,9 +67,11 @@ function Tank_Game() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project Tank Wars is an individually made Java based application using the model view controller design archetype. 
-                        This project was built utilizing all 3 pillars of object oriented programming and allowed two players to interact 
-                        with each other and their surroundings using the keyboard. The objective is to shoot each other down until one players lives run out. 
+                        Project World of Warcraft (WoW) Professions Discord Bot is an application created with Javascript and Replit in a team of 2. This project
+                        allows Discord users to call certain commands in Discord text channels that return existing data within the Replit database. The goal behind this 
+                        personal project was to provide our WoW community with a hub for all data in the game regarding professions. This allowed us to keep track of
+                        all individuals that had specific recipes within the given Discord server once they "learned" it by running the learn command. Using this streamlined
+                        community communication and craft sharing.
                     </Typography> 
                 </CardContent>
             </Collapse>
@@ -77,4 +79,4 @@ function Tank_Game() {
     );
 }
 
-export default Tank_Game;
+export default WoWProfDiscordBot;
