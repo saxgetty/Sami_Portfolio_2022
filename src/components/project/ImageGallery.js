@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function Image_Gallery() {
+function ImageGallery() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -77,4 +77,4 @@ function Image_Gallery() {
     );
 }
 
-export default Image_Gallery;
+export default ImageGallery;
