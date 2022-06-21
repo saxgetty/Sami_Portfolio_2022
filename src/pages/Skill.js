@@ -10,7 +10,9 @@ function Skill() {
                     item xs={12} 
                     textAlign='center'
                 >
-                    <div class='name'>SKILLS & TECHNOLOGIES</div>
+                    <div class='name'>
+                        SKILLS & TECHNOLOGIES
+                    </div>
                 </Grid>
             </Grid>
             <Grid container 

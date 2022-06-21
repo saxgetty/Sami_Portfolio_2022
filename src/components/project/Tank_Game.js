@@ -21,7 +21,7 @@ const ExpandMore = styled((props) => {
     }),
 }));
 
-function BusyGator() {
+function Tank_Game() {
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -35,18 +35,18 @@ function BusyGator() {
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
-                title='BusyGator'
-                subheader='May | 2022'
+                title='Tank Wars'
+                subheader='August | 2021'
             />
             <CardMedia
                 component='img'
                 height='300'
-                image='BusyGator_Img.png'
-                alt='BusyGator Website'
+                image='Tank_Game_Img.png'
+                alt='Tank Wars 2v2 Game'
             />
             <CardContent>
                 <Typography variant='h6' color='text.secondary'>
-                    JavaScript | React.js | Express.js | AWS | SQL
+                    Java
                 </Typography>
             </CardContent>
             <Typography marginRight={2} align='right' variant='body2' color='text.secondary'>
@@ -67,28 +67,14 @@ function BusyGator() {
                     <Typography paragraph 
                         align='left'
                     >
-                        Project BusyGator is a mock e-commerce website for San Francisco State University students,
-                        staff, and faculty. Throughout this project, I worked in a team of 7 software developers to simulate
-                        an industry level software development lifecycle.
-                    </Typography>
-                    <Typography paragraph 
-                        align='left'
-                    >
-                        As a Team Lead, my role differed quite a bit from the others. The main focus on my role was on team and project 
-                        management. My tasks included, team management, task deligation, organizing and assigning deadlines for workflow through 
-                        Trello, bridging communication between team questions and professor responses, as well as holding 3 weekly meetings to maintain schedule
-                        and progress of our workflow.
-                    </Typography>
-                    <Typography paragraph 
-                        align='left'
-                    >
-                        As a Team Member, I designed and upkept our SQL database, formatted, prepared, and implemented all milestone documentation, designed our website
-                        logo and map, and added finishing comments throughout the project.
-                    </Typography>
+                        Project Tank Wars is an individually made Java based application using the model view controller design archetype. 
+                        This project was built utilizing all 3 pillars of object oriented programming and allowed two players to interact 
+                        with each other and their surroundings using the keyboard. The objective is to shoot each other down until one players lives run out. 
+                    </Typography> 
                 </CardContent>
             </Collapse>
         </Card>
     );
 }
 
-export default BusyGator;
+export default Tank_Game;

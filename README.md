@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Sami's Portfolio Website
+
+This project was created to display information about me, including work experience, core values, passions and hobbies, projects, skills, and my contant information.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

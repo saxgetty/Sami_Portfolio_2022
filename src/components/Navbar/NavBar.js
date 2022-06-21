@@ -6,7 +6,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
-// import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
 import { Link } from 'react-router-dom';
 
@@ -32,50 +31,46 @@ function Navbar() {
 
   return (
     <ThemeProvider theme={theme}>
-        <AppBar sx={{ height: 85}}>
-        <Tabs 
-          selectionFollowsFocus
-          value={selectedTab}  
-          onChange={handleChange}
-          textColor="warning-light" 
-          indicatorColor="warning-light"  
-          aria-label="icon label tabs example" 
-          centered>
-            <Tab 
-              icon={<PersonOutlineOutlinedIcon />} 
-              style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
-              component={Link} to={"/about"}
-              label={<span style={{ color: 'wheat'}}>ABOUT ME</span>} 
-            />
-            <Tab 
-              icon={<CodeOutlinedIcon />} 
-              style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
-              component={Link} to={"/project"} 
-              label={<span style={{ color: 'wheat'}}>PROJECTS</span>} 
-            />
-            <Tab 
-              icon={<BuildOutlinedIcon />} 
-              style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
-              component={Link} 
-              to={"/skill"} 
-              label={<span style={{ color: 'wheat'}}>SKILLS</span>} 
-            />
-            {/* <Tab 
-              icon={<ArticleOutlinedIcon />} 
-              style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
-              component={Link} 
-              to={"/resume"} 
-              label={<span style={{ color: 'wheat'}}>RESUME</span>}  
-            /> */}
-            <Tab 
-              icon={<AlternateEmailOutlinedIcon />} 
-              style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
-              component={Link} 
-              to={"/contact"} 
-              label={<span style={{ color: 'wheat'}}>CONTACT ME</span>} 
-            />
-          </Tabs>
-        </AppBar>
+      <AppBar sx={{ height: 85 }}>
+      <Tabs 
+        selectionFollowsFocus
+        value={selectedTab}  
+        onChange={handleChange}
+        textColor='warning-light' 
+        indicatorColor='warning-light'  
+        aria-label='icon label tabs example' 
+        centered
+      >
+          <Tab 
+            icon={<PersonOutlineOutlinedIcon />} 
+            style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
+            component={ Link } 
+            to={ '/about' }
+            label={<span style={{ color: 'wheat'}}>ABOUT ME</span>} 
+          />
+          <Tab 
+            icon={<CodeOutlinedIcon />} 
+            style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
+            component={ Link } 
+            to={ '/project' } 
+            label={<span style={{ color: 'wheat' }}>PROJECTS</span>} 
+          />
+          <Tab 
+            icon={<BuildOutlinedIcon />} 
+            style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
+            component={ Link } 
+            to={ '/skill' } 
+            label={<span style={{ color: 'wheat' }}>SKILLS</span>} 
+          />
+          <Tab 
+            icon={<AlternateEmailOutlinedIcon />} 
+            style={{ color: 'wheat', fontSize: 'large', marginTop: 5 }} 
+            component={ Link } 
+            to={ '/contact' } 
+            label={<span style={{ color: 'wheat' }}>CONTACT ME</span>} 
+          />
+        </Tabs>
+      </AppBar>
     </ThemeProvider>
   );
 }

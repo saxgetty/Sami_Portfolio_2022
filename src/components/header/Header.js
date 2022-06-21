@@ -5,7 +5,7 @@ function Header() {
     return (  
         <div>
             <header>
-                <title>Portfolio</title>
+                <title>Sami Saxton-Getty</title>
             </header>
         </div>
     );
