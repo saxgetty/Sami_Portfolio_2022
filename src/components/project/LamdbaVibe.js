@@ -31,7 +31,7 @@ function LamdbaVibe() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function LamdbaVibe() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='LamdbaVibe_Img.png'
                 alt='LamdbaVibe Website'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     TypeScript | React.js | SQLite
                 </Typography>
             </CardContent>

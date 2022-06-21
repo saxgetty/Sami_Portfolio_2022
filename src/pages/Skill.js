@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Grid, Paper, Box } from '@mui/material/';
+import { Grid, Paper, Box } from '@mui/material/';
 
 function Skill() {
 
@@ -15,14 +15,15 @@ function Skill() {
                     </div>
                 </Grid>
             </Grid>
-            <Grid container 
-                style={{alignItems: 'center', justifyContent:'center'}}
-            >
-                <Stack container 
-                    direction={{ xs: 'column', sm: 'column', md: 'row', lg: 'row', xl: 'row' }} 
-                    spacing={10}
-                    alignItems={{md: 'center'}}
-                    marginTop={10}
+            <Grid container
+                direction={{ xs: 'column', sm: 'column', md: 'row', lg: 'row', xl: 'row' }}
+                spacing={{ xs: 4, sm: 4, md: 4 }}
+                columnSpacing={{ md: 0 }}
+                justifyContent='center'
+                align='center'                                  
+            > 
+                <Grid
+                    item xs={12} sm={12} md={4}               
                 >
                     <Box
                         sx={{
@@ -54,6 +55,10 @@ function Skill() {
                                 </div>
                         </Paper>
                     </Box>
+                </Grid>
+                <Grid
+                    item xs={12} sm={12} md={4}               
+                >
                     <Box
                         sx={{
                             '& > :not(style)': {
@@ -90,6 +95,10 @@ function Skill() {
                             </div>
                         </Paper>
                     </Box>
+                </Grid>
+                <Grid
+                    item xs={12} sm={12} md={4}               
+                >
                     <Box 
                         sx={{
                             '& > :not(style)': {
@@ -117,7 +126,7 @@ function Skill() {
                             </div>
                         </Paper>
                     </Box>
-                </Stack>
+                </Grid>
             </Grid>
         </>
     );

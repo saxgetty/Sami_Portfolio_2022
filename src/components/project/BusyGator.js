@@ -31,7 +31,7 @@ function BusyGator() {
 
     return(
         <Card 
-            sx={{ maxWidth: 550 }}
+            sx={{ maxWidth: 480 }}
             style={{ backgroundColor: '#f2b643' }}
         >
             <CardHeader
@@ -40,12 +40,12 @@ function BusyGator() {
             />
             <CardMedia
                 component='img'
-                height='300'
+                height='250'
                 image='BusyGator_Img.png'
                 alt='BusyGator Website'
             />
             <CardContent>
-                <Typography variant='h6' color='text.secondary'>
+                <Typography variant='body1' color='text.secondary'>
                     JavaScript | React.js | Express.js | AWS | SQL
                 </Typography>
             </CardContent>

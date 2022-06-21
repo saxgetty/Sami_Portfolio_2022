@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, Grid, Stack } from '@mui/material/';
+import { IconButton, Grid } from '@mui/material/';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -16,14 +16,16 @@ function Contact() {
                     <div class='name'>
                         CONTACT SAMI
                     </div>
-                </Grid>
-                <Grid container 
-                    style={{alignItems: 'center', justifyContent:'center'}}
-                >
-                    <Stack container 
-                        direction={{ xs: 'column', sm: 'column', md: 'row', lg: 'row', xl: 'row' }}
-                        spacing={10}
-                        alignItems={{md: 'center'}}
+                </Grid>               
+                <Grid container
+                    direction={{ xs: 'column', sm: 'column', md: 'row', lg: 'row', xl: 'row' }}
+                    spacing={{ xs: 4, sm: 4, md: 4 }}
+                    columnSpacing={{ md: 0 }}
+                    justifyContent='center'
+                    align='center'                                  
+                > 
+                    <Grid
+                        item xs={12} sm={12} md={4}           
                     >
                         <IconButton 
                             aria-label='Linkedin.com/in/sami-saxton-getty' 
@@ -34,6 +36,10 @@ function Contact() {
                                 sx={{ fontSize: '200px' }} 
                             />
                         </IconButton>
+                    </Grid>
+                    <Grid
+                        item xs={12} sm={12} md={4}                
+                    >
                         <IconButton 
                             aria-label='saxgetty4@gmail.com' 
                             onClick={() => window.open('mailto:saxgetyy4@gmail.com', '_blank')}
@@ -43,6 +49,10 @@ function Contact() {
                                 sx={{ fontSize: '200px' }} 
                             />
                         </IconButton>
+                    </Grid>
+                    <Grid
+                        item xs={12} sm={12} md={4}                      
+                    >
                         <IconButton 
                             aria-label='Github.com/saxgetty' 
                             onClick={() => window.open('https://github.com/saxgetty', '_blank')}
@@ -51,27 +61,10 @@ function Contact() {
                             <GitHubIcon 
                                 sx={{ fontSize: '200px' }} 
                             />
-                            </IconButton>
-                    </Stack>
+                        </IconButton>
+                    </Grid>
                 </Grid>
-                {/* <Grid container> 
-                    <Grid 
-                        item xs={12} sm={12} md={4} 
-                        textAlign={{ xs: 'center', sm: 'center', md: 'right' }}
-                    >  
-                    </Grid>
-                    <Grid 
-                        item xs={12} sm={12} md={4}
-                        textAlign='center'    
-                    >     
-                    </Grid>
-                    <Grid 
-                        item xs={12} sm={12} md={4} 
-                        textAlign={{ xs: 'center', sm: 'center', md: 'left' }}
-                    >    
-                    </Grid>
-                </Grid> */}
-            </Grid>
+            </Grid>   
         </>
     );
 }
