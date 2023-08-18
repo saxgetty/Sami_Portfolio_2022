@@ -1,10 +1,8 @@
-# Sami's Portfolio Website
+# Sami Saxton-Getty | Portfolio 2022
 
-This project was created to display information about me, including work experience, core values, passions and hobbies, projects, skills, and my contant information.
+This project was my first personal portfolio after college. I honed my skills in React.js and learned Material UI for design. As a beginner's portfolio, I focused on expressing my style rather than conforming to trends. Functionality took precedence, as I saw it as a learning opportunity. 
 
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![htugLNR](https://github.com/saxgetty/Sami_Portfolio_2022/assets/67216252/b63501fe-19f8-4b7d-ba4a-6fce195f4a36)
 
 ## Available Scripts
 
